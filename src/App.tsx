@@ -34,6 +34,7 @@ function App() {
           placeholder="Digite o texto aqui"
           value={text}
           onChange={handleChange}
+          autoFocus
           className="w-full resize-none outline-none rounded p-3 border"
         />
 
